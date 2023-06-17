@@ -189,6 +189,23 @@ That's it! You have completed the installation process. Ensure that all the nece
 
 **If you encounter any issues during the installation, refer to the official documentation for the respective tools and frameworks or seek assistance from the community.
 
+## To launch test
+
+**Launching Appium Server:**
+
+Open the Appium GUI Server (Appium Desktop) from the downloaded and installed location.
+Configure the desired settings for the Appium server and start server.
+Appium Server log should appear with status: The server is running
+
+
+**Opening the project in IntelliJ IDEA:**
+
+Launch IntelliJ IDEA and open the project that contains the regression testing plan automation code.
+Running the test cases:
+
+In the project structure, navigate to the test cases file (where the methods annotated with @Test are defined).
+Run the tests by either clicking the run icon next to each @Test method or by running the entire test suite by clicking run using Intelij compiler. Or to run all tests using listener right click on all-class-tests.xml in TestSuitePackage and running.
+
 ## Usage
   1. Creating an instance's of Tasks class.
   2. Call the setUp() method to set up the test environment before each test case.
